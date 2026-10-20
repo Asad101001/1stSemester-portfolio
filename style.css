@@ -65,17 +65,13 @@
  }
 
  .leftSection .btn {
-     padding: 16px 15px;
+     padding: 20px 20px;
      color: rgb(253, 253, 255);
      background-color: rgb(25, 25, 95);
      border: solid white;
      border-radius: 10px;
      font-size: 24px;
      cursor: pointer;
- }
-
- .leftSection .btn {
-     padding: 20px 20px;
  }
 
  .leftSection .btn:hover {
