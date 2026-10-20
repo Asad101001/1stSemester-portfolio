@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="komik">
 
 <head>
     <meta charset="UTF-8">
@@ -10,76 +10,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Poppins:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <style>
-    </style>
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="left">My Portfolio</div>
-            <div class="right"> </div>
+            <div class="left">Asad's Portfolio</div>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Projects</a></li>
-                <li><a href="/">Accreditations and Affiliations</a></li>
-                <li><a href="/">Contact Me</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#footer">Contact</a></li>
             </ul>
         </nav>
     </header>
     <div class="main-wrapper">
-        <section class="firstSection">
+        <section class="firstSection" id="home">
             <div class="leftSection">
                 Hi, My name is <span class="purple">Asad</span>
                 <div>and I am an aspiring</div>
                 <span id="element"></span>
-                <br>
-                <br>
-                <button class="btn">View CV <i class="fa-solid fa-file"></i></button>
-                <button class="btn">Visit GitHub <i class="fa-brands fa-github"></i></button>
+                <div class="button-group">
+                    <a href="#about" class="btn">View CV <i class="fa-solid fa-file"></i></a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn">Visit GitHub <i class="fa-brands fa-github"></i></a>
+                </div>
             </div>
             <div class="rightSection">
-                <img src="bg.png" alt="">
+                <img src="bg.png" alt="Asad's Profile Illustration">
             </div>
         </section>
 
         <h1 class="section-title">About Me</h1>
-        <section class="about-me">
+        <section class="about-me" id="about">
             <div class="about-content">
                 <div class="about-text">
-                    <h2 class="glowing-name">Muhammad<span class="glow">Asad </span></h2>
+                    <h2 class="glowing-name">Muhammad <span class="glow">Asad</span></h2>
                     <p>I'm an eager <span class="highlight">Computer Science</span> student at <span
-                            class="uni-glow">UBIT , University of Karachi </span>currently enrolled in my first
-                        semester of my bachelors degree, where I am actively learning and grasping the
+                            class="uni-glow">UBIT, University of Karachi</span> currently enrolled in my first
+                        semester of my bachelor's degree, where I am actively learning and grasping the
                         foundational concepts of the field. From programming and data structures to understanding the
-                        fundamentals of how computers operate, I’m building a strong base to support my future studies.
+                        fundamentals of how computers operate, I'm building a strong base to support my future studies.
                         I plan on expanding my horizon by exploring advanced topics,
                         engaging in hands-on projects, and staying updated with the latest developments in technology to
                         grow both academically and professionally.</p>
                 </div>
                 <div class="about-image">
-                    <img src="example.png" class="profile-glow">
+                    <img src="example.png" alt="Muhammad Asad" class="profile-glow">
                 </div>
             </div>
         </section>
 
-
         <hr>
-        <section class="secondSection">
+
+        <section class="secondSection" id="experience">
             <span class="text-grey">Softwares and Languages I have worked on so far</span>
             <h1>Previous Experiences</h1>
 
             <div class="box">
                 <div class="vertical">
-                    <img class="image-top" src="python.png" alt="">
+                    <img class="image-top" src="python.png" alt="Python">
                     <div class="vertical-text">
-                        Python
-                        <span>
-                            (2024-2025)</span>
+                        Python <span>(2024-2025)</span>
                     </div>
                     <div class="vertical-desc">
                         I completed a Data Science course from NED University, where I gained practical experience in
@@ -90,28 +84,26 @@
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class="image-tophtml" src="html.png" alt="">
+                    <img class="image-tophtml" src="html.png" alt="HTML">
                     <div class="vertical-text">
-                        HTML (2019-
+                        HTML <span>(2019-Present)</span>
                     </div>
-                    <br>
                     <div class="vertical-desc">
                         I began learning HTML during my school years, where I was introduced to the basics of web
-                        development. Since then, I’ve maintained a foundational understanding through various online
-                        resources and small self-guided projects. I used basic HTML and CSS to create and structure my
-                        personal portfolio, focusing on simple, responsive layouts to effectively showcase my work.
+                        development. Since then, I've maintained a foundational understanding through various online
+                        resources and small self-guided projects. I used HTML and CSS to create and structure my
+                        personal portfolio, focusing on clean, responsive layouts to effectively showcase my work.
                     </div>
                 </div>
                 <div class="vertical">
-                    <img class="image-topcss" src="css.png" alt="">
+                    <img class="image-topcss" src="css.png" alt="CSS">
                     <div class="vertical-text">
-                        CSS (2025-
+                        CSS <span>(2025-Present)</span>
                     </div>
-                    <br>
                     <div class="vertical-desc">
                         I have a basic understanding of CSS, which I developed alongside learning HTML during school and
                         through online resources. My experience includes using CSS for styling web pages, adjusting
-                        layouts, and applying simple visual enhancements. I applied these skills while working on my
+                        layouts, and applying visual enhancements. I applied these skills while working on my
                         personal portfolio, focusing on clean design and responsive structure to present my projects
                         clearly.
                     </div>
@@ -119,20 +111,19 @@
                 <div class="vertical">
                     <img class="image-topjava" src="java.png" alt="Java">
                     <div class="vertical-text">
-                        Java (2025-
+                        Java <span>(2025-Present)</span>
                     </div>
-                    <br>
                     <div class="vertical-desc">
                         I am currently studying Java at university and have covered the basics so far. My experience
                         includes working with variables, control structures, file handling, and implementing key logical
-                        operations. This foundation is helping me build a solid understanding of Java’s core concepts as
+                        operations. This foundation is helping me build a solid understanding of Java's core concepts as
                         I continue to develop my programming skills.
                     </div>
                 </div>
                 <div class="vertical">
                     <img class="image-topr" src="rstudio.png" alt="RStudio">
                     <div class="vertical-text">
-                        RStudio (2024-25)
+                        RStudio <span>(2024-2025)</span>
                     </div>
                     <div class="vertical-desc">
                         I have worked with RStudio as part of my data science learning, gaining a foundational
@@ -144,46 +135,38 @@
                 </div>
             </div>
         </section>
-
     </div>
 
-
-
-
-    <footer>
+    <footer id="footer">
         <div class="footerContainer">
             <div class="socialIcons">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-google-plus"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" aria-label="Google"><i class="fa-brands fa-google-plus"></i></a>
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
             <div class="footerNav">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Business Inquiries</a></li>
-                    <li><a href="">Services</a></li>
-
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#footer">Business Inquiries</a></li>
+                    <li><a href="#footer">Services</a></li>
                 </ul>
             </div>
             <div class="footerBottom">
-                <p>Copyright &copy;2025; Designed by <span class="designer">Asad</span></p>
+                <p>Copyright &copy; 2025; Designed by <span class="designer">Asad</span></p>
             </div>
         </div>
     </footer>
 
-
-
-
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['software developer', 'and', ' data scientist.'],
+            strings: ['software developer', 'and', 'data scientist.'],
             typeSpeed: 50,
         });
     </script>
